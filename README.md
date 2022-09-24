@@ -11,8 +11,12 @@ Install go from the official website [link](https://go.dev/dl/).
 Give a Try, clone this repository and run the following command in the terminal.
 
 ```go run main.go```
+
 Build and Compile with the following command.
+
 ```go build -ldflags="-s -w"```
+
 ## Usage
+
 Once built and compiled you can run from command line using the following command.
 ```./goCryptHttp```
