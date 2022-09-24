@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/gokg4/go_crypto_http) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gokg4/go_crypto_http) ![GitHub repo size](https://img.shields.io/github/repo-size/gokg4/go_crypto_http) {::comment} ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gokg4/go_crypto_http) {:/comment}
+![GitHub](https://img.shields.io/github/license/gokg4/go_crypto_http) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/gokg4/go_crypto_http) ![GitHub repo size](https://img.shields.io/github/repo-size/gokg4/go_crypto_http) <!--- ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gokg4/go_crypto_http) --->
 
 # go_crypto_http
 
