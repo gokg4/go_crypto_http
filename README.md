@@ -21,3 +21,7 @@ Build and Compile with the following command.
 Once built and compiled you can run from command line using the following command.
 
 ```./goCryptHttp```
+
+## Contributors
+
+- [gokg4](https://github.com/gokg4) - creator and maintainer
