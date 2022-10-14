@@ -76,7 +76,7 @@ func priceCheck(c string) {
 			log.Fatal(err2)
 		}
 
-		fmt.Printf("%s Price Today (%v %v, %v | %v): \n", cases.Title(language.English).String(c), currentTime.Month(), currentTime.Day(), currentTime.Year(), currentTime.Format(time.Kitchen))
+		fmt.Printf("%s (%s) Price Today (%v %v, %v | %v): \n", coin.Name, strings.ToUpper(coin.Symbol), currentTime.Month(), currentTime.Day(), currentTime.Year(), currentTime.Format(time.Kitchen))
 		fmt.Printf("USD: %.2f\nEUR: %.2f\nGBP: %.2f\nINR: %.2f\n", math.Round(coin.MarketData.CurrentPrice.Usd*100)/100, math.Round(coin.MarketData.CurrentPrice.Eur*100)/100, math.Round(coin.MarketData.CurrentPrice.Gbp*100)/100, math.Round(coin.MarketData.CurrentPrice.Inr*100)/100)
 	} else {
 		fmt.Printf("Crypto not found! Please check if \"%s\" is an valid crypto.\n", cases.Title(language.English).String(c))
