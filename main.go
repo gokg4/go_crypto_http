@@ -59,13 +59,13 @@ func priceCheck(c string) {
 		log.Fatal(err)
 	}
 
+	defer res.Body.Close()
+
 	body, err := io.ReadAll(res.Body)
 
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	defer res.Body.Close()
 
 	if res.StatusCode == 200 {
 		var coin CoinGeckoData
